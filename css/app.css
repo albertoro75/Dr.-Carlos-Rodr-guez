@@ -1,0 +1,11 @@
+:root   {
+    --verdeclaro: #82af70;
+    --verdemusgo: #605820;
+    --negro: #000;
+    --blanco: #FFF;
+    --celeste: #5898b0;
+    --rosa: #b87880;
+}
+h1 {
+color: var(--celeste);
+}
