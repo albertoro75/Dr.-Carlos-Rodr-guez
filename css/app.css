@@ -1,11 +1,66 @@
 :root   {
-    --verdeclaro: #82af70;
+    --verdeclaro: #e5fadc;
     --verdemusgo: #605820;
     --negro: #000;
     --blanco: #FFF;
-    --celeste: #5898b0;
+    --celeste: #98e0fa;
     --rosa: #b87880;
+    --gris: #ccc9c9;
 }
-h1 {
-color: var(--celeste);
+html {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*normalize*/
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/**navegacion**/
+a {
+    text-decoration: none;
+    color: var(--negro);
+}
+.header {
+    height:100px; width:100%;
+	text-align:center;
+}
+
+.nav-principal { /*hacer boton CTA */
+    border: 1px solid var(--gris);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+    text-align: center;
+}
+/*informacion general, foto der-text izq*/
+
+.inf-principal {
+    display: grid;
+    grid-template-columns:auto;
+    background-color: var(--celeste);
+}
+/* en 4 columnas, texto abajo, ..*/
+.list-especialidades {
+    display: grid;
+}
+
+.especialidades {
+    border: 1px solid var(--gris);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+    text-align: center;
+}
+
+
+.footer {
+    /*llamar nuevamente para la cita*/
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+    text-align: center;
 }
